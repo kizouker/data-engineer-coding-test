@@ -1,0 +1,21 @@
+{
+  "folders": [
+    { "name": "root", "path": "." },
+    { "name": "sql", "path": "sql" },
+    { "name": "python", "path": "python" },
+    { "name": "java", "path": "java" }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder:python}/.venv/bin/python"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "vscjava.vscode-java-pack",
+      "mtxr.sqltools",
+      "mtxr.sqltools-driver-pg",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+}
